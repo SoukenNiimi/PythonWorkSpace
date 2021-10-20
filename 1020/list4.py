@@ -1,6 +1,6 @@
 num=input("整数を入力してください")
 n=int(num)
 a=sum(range(n+1))
-print("1~{n}までの合計:{a}")
+print("1~{}までの合計:{}".format(n,a))
 avg=a/n
-print("平均:{avg}")
+print("平均:{}".format(avg))
